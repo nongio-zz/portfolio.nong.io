@@ -1,0 +1,28 @@
+!!!
+html
+  head
+    title= 'nong.io'
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/bootstrap.min.css')
+    link(rel='stylesheet', href='/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='/ric.css')
+  body
+    .container
+      .row
+        .col-md-3.me
+                h1
+                  |Riccardo </br>
+                  |Canalicchio
+                p.gray software engineer portfolio
+                p 
+                  a(href="https://github.com/nongio") github
+                p 
+                  a(href="https://twitter.com/nongio") twitter
+                p.tags
+                  - each tag in getTags()
+                    span.label.label-ric #{tag}
+        .col-md-7.col-md-offset-1
+          block content
+    footer.well
+      .container
+        p Riccardo Canalicchio - 2013 - made with: nodejs, express, poet, bootstrap, flatstrap

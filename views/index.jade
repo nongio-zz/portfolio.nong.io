@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  - var posts = getPosts()
+  - each post in posts
+    include includes/postSnippet
+
