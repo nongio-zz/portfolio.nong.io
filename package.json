@@ -12,6 +12,9 @@
     "express": "~3.4.0",
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.9",
-    "poet": "~1.0.0-rc3"
+    "poet": "~1.0.0-rc3",
+    "markdown": "~0.5.0",
+    "jade": "~0.35.0",
+    "express-livereload": "0.0.24"
   }
 }
