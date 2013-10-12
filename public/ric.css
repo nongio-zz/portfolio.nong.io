@@ -48,3 +48,20 @@ footer {
 	clear:both;
 	margin-bottom: 0px;
 }
+
+#people {
+	position: fixed;
+	right: 0px;
+	top:0px;
+	height: 100%;
+	width: 50px;
+	border: 1px solid #f00;
+}
+#people .person{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 20px 10px 0;
+	border-color: transparent #007bff transparent transparent;
+}
