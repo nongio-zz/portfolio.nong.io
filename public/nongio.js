@@ -3,7 +3,9 @@ var current_user;
 
 $(document).ready(function () {
     window.console.log("ready!")
-    
+    $("#people").css({
+        height:$(document).height() + "px"
+    })
     //myDataRef = new Firebase('https://nongio.firebaseio.com/users');
     myDataRef = new Firebase('https://nongio.firebaseio.com/users')
 
@@ -43,12 +45,7 @@ $(document).ready(function () {
     myDataRef.on('child_changed', function(snapshot) {
         window.console.log("user changed", snapshot);
         //
-        var top = 0.05+(snapshot.val().scroll / ($(window).height()*1.6));
-        if(top < 0)
-            top = 0;
-        if(top > 1)
-            top = 1;
-        top = top * $("#people").height();
+        var top = (100+snapshot.val().scroll*0.4);
         $("#person"+ snapshot.name()).css({top: top+"px"})
         .css({
             "border-color": "transparent rgb("+ Math.floor(snapshot.val().r)+","+Math.floor(snapshot.val().g) + ","+Math.floor(snapshot.val().b)+") transparent transparent"

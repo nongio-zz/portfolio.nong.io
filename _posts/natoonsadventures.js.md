@@ -1,9 +1,9 @@
 {{{
     "title"    : "natoons adventures",
-    "tags"     : [ "app", "iOS", "iPad", "iPhone", "Android" ],
+    "tags"     : [ "web", "game", "app", "iOS", "iPad", "iPhone", "Android", "Flash"],
     "category" : "apps",
     "date"     : "2013",
-    "preview"  : ""
+    "row"  : "Film game developed for web and mobile: web: Flash ActionScript, iOS: (iPhone / iPad) Openframeworks + iOS SDK, Android: Openframeworks + Android SDK"
 
 }}}
 
