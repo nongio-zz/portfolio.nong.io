@@ -9,18 +9,18 @@ body {
 	float:left;
 }
 
-h3 a,
+h2 a,
 h1 a 
 {
 	color: #000;
 }
 
-h3 a:hover,
+h2 a:hover,
 h1 a:hover
  {
 	text-decoration: none;
 }
-h3 .date{
+h2 .date{
 	font-size: 12px;
 	float:right;
 	padding-top: 10px;
@@ -29,7 +29,7 @@ h3 .date{
 .gray {
 	color: #999;
 }
-h3 {
+h2 {
 	width:100%;
 	clear:both;
 }
@@ -62,5 +62,6 @@ footer {
 	height: 0px;
 	border-style: solid;
 	border-width: 10px 20px 10px 0;
+	right: 10px;
 	border-color: transparent #007bff transparent transparent;
 }

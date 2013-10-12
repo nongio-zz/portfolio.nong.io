@@ -4,17 +4,22 @@ var current_user;
 $(document).ready(function () {
     window.console.log("ready!")
     
-    var myDataRef = new Firebase('https://nongio.firebaseio.com/users');
+    //myDataRef = new Firebase('https://nongio.firebaseio.com/users');
+    myDataRef = new Firebase('https://nongio.firebaseio.com/users')
+
     //var id = myDataRef.get("id") || 0;
-    // myDataRef.forEach(function(childSnapshot) {
-    //   // This code will be called twice.
-    //   var name = childSnapshot.name();
-    //   var childData = childSnapshot.val();
-    //   // if( childData.date)
-    // });
+    myDataRef.once('value', function(allMessagesSnapshot) {
+        var current_date = (new Date()).getTime();
+        allMessagesSnapshot.forEach(function(messageSnapshot) {
+            var diff = current_date - messageSnapshot.val().date;
+            if(diff > 36000)
+                messageSnapshot.ref().remove();
+
+        });
+    });
     var current_user = myDataRef.push({
         scroll: 0,
-        date: (new Date()),
+        date: (new Date()).getTime(),
         r: Math.random()*255,
         g: Math.random()*255,
         b: Math.random()*255
@@ -38,9 +43,11 @@ $(document).ready(function () {
     myDataRef.on('child_changed', function(snapshot) {
         window.console.log("user changed", snapshot);
         //
-        var top = (snapshot.val().scroll / $(window).height());
+        var top = 0.05+(snapshot.val().scroll / ($(window).height()*1.6));
+        if(top < 0)
+            top = 0;
         if(top > 1)
-            top = 1
+            top = 1;
         top = top * $("#people").height();
         $("#person"+ snapshot.name()).css({top: top+"px"})
         .css({
