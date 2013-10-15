@@ -2,7 +2,6 @@ var myDataRef;
 var current_user;
 
 $(document).ready(function () {
-    window.console.log("ready!")
     $("#people").css({
         height:$(document).height() + "px"
     })
@@ -33,7 +32,7 @@ $(document).ready(function () {
     })
 
     myDataRef.on('child_added', function(snapshot) {
-        window.console.log("new user", snapshot.val());
+
         var person = $("<div id=\"person"+ snapshot.name() +"\" class=\"person\">")
             .css({top: snapshot.val().scroll+"px"})
             .css({
@@ -43,8 +42,6 @@ $(document).ready(function () {
 
     });
     myDataRef.on('child_changed', function(snapshot) {
-        window.console.log("user changed", snapshot);
-        //
         var top = (100+snapshot.val().scroll*0.4);
         $("#person"+ snapshot.name()).css({top: top+"px"})
         .css({
@@ -52,7 +49,6 @@ $(document).ready(function () {
         })
     });
     myDataRef.on('child_removed', function(snapshot) {
-        window.console.log("delete user")
         $("#person"+ snapshot.name()).remove();
     });
 
