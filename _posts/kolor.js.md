@@ -3,7 +3,7 @@
     "tags"     : [ "openframeworks" ],
     "category" : "fashion show",
     "date"     : "2013",
-    "preview"  : "openframeworks software for real time camera acquisition processing"
+    "row"  : "openframeworks software for real time camera acquisition processing"
 
 }}}
 

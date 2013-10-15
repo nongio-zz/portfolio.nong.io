@@ -3,7 +3,7 @@
     "tags"     : [ "app", "iOS", "iPad" ],
     "category" : "apps",
     "date"     : "2012",
-    "preview"  : "an ipad application"
+    "row"  : "an ipad application"
 
 }}}
 the app is no longer in the app store below some screen recording made to explaing hwo it works

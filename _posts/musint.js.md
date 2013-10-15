@@ -3,7 +3,7 @@
     "tags"     : [ "webgl", "html5" ],
     "category" : "web",
     "date"     : "2012",
-    "preview"  : "interactive museum collecting Aegean and Cypriote findings"
+    "row"  : "interactive museum collecting Aegean and Cypriote findings"
 
 }}}
 

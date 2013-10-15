@@ -3,7 +3,7 @@
     "tags"     : [ "openframeworks" ],
     "category" : "fashion show",
     "date"     : "2010",
-    "preview"  : ""
+    "row"  : ""
 
 }}}
 

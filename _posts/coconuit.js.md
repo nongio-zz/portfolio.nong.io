@@ -3,7 +3,7 @@
     "tags"     : [ "opensource", "code", "multitouch" ],
     "category" : "multitouch",
     "date"     : "2009",
-    "preview"  : "object-c framework based on Core Animation"
+    "row"  : "object-c framework based on Core Animation"
 
 }}}
 
