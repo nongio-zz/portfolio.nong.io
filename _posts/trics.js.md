@@ -7,3 +7,18 @@
 
 }}}
 
+
+
+** screenshots of editor in action **
+
+![Alt text](/imgs/trics/1.jpg)
+
+![Alt text](/imgs/trics/2.jpg)
+
+![Alt text](/imgs/trics/3.jpg)
+
+![Alt text](/imgs/trics/4.jpg)
+
+![Alt text](/imgs/trics/5.jpg)
+
+![Alt text](/imgs/trics/6.jpg)

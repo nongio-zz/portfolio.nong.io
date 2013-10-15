@@ -1,5 +1,5 @@
 {{{
-    "title"    : "gareth pugh fashion show - pitti florence",
+    "title"    : "gareth pugh fashion show",
     "tags"     : [ "openframeworks" ],
     "category" : "fashion show",
     "date"     : "2010",
