@@ -3,8 +3,8 @@
     "tags"     : [ "multitouch", "trade show" ],
     "category" : "multitouch",
     "date"     : "2009",
-    "preview"  : ""
+    "preview"  : "touch screen software made with Flash ActionsScript 3.0"
 
 }}}
 
-http://www.youtube.com/watch?v=ts6QvNIyU_Y&feature=c4-overview&list=UUtYmLzUpUvWJXzaX8YyUTzA
+<iframe width="560" height="315" src="//www.youtube.com/embed/ts6QvNIyU_Y?list=UUtYmLzUpUvWJXzaX8YyUTzA" frameborder="0" allowfullscreen></iframe>
