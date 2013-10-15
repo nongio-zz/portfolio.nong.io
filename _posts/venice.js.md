@@ -1,6 +1,6 @@
 {{{
     "title"    : "venice carnival, biennale di venezia",
-    "tags"     : [ "openframeworks" ],
+    "tags"     : [ "openframeworks", "physical computing", "arduino" ],
     "category" : "physical computing",
     "date"     : "2011",
     "row"  : "a series of interactive installations, made in openframeworks, openGL and arduino"

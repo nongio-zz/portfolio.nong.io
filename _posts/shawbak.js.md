@@ -1,6 +1,6 @@
 {{{
     "title"    : "shawbak",
-    "tags"     : [ "museum", "multitouch" ],
+    "tags"     : [ "museum", "multitouch", "core animation" ],
     "category" : "multitouch",
     "date"     : "2009",
     "row"  : "multitouch tabletop, made using coconuit framework"

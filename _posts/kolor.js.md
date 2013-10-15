@@ -1,6 +1,6 @@
 {{{
     "title"    : "kolor fashion show",
-    "tags"     : [ "openframeworks" ],
+    "tags"     : [ "openframeworks", "shader" ],
     "category" : "fashion show",
     "date"     : "2013",
     "row"  : "openframeworks software for real time camera acquisition processing"

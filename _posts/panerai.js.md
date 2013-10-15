@@ -1,6 +1,6 @@
 {{{
     "title"    : "panerai",
-    "tags"     : [ "openframeworks" ],
+    "tags"     : [ "openframeworks", "projection mapping" ],
     "category" : "trade show",
     "date"     : "2013",
     "row"  : "projection mapping during SIHH 2013 in geneve (min. 1:46) "

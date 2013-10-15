@@ -1,6 +1,6 @@
 {{{
     "title"    : "waterproof rain by pirelli pzero",
-    "tags"     : [ "openframeworks" ],
+    "tags"     : [ "openframeworks", "projection mapping" ],
     "category" : "fashion show",
     "date"     : "2012",
     "row"  : "small projection mapping on umbrellas, openframeworks"
