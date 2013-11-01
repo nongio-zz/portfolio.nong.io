@@ -3,7 +3,8 @@
     "tags"     : [ "opera", "projection mapping" ],
     "category" : "projection mapping",
     "date"     : "2012",
-    "row"  : "a spectacular multimedial opera"
+    "row"  : "a spectacular multimedial opera",
+    "pimg" : "/imgs/ball/pimg.png"
 
 }}}
 

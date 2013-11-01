@@ -3,7 +3,8 @@
     "tags"     : [ "museum", "multitouch" ],
     "category" : "multitouch",
     "date"     : "2010",
-    "row"  : "multitouch tabletop, made using http://www.multitaction.com/ framework"
+    "row"  : "multitouch tabletop, made using http://www.multitaction.com/ framework",
+    "pimg": "/imgs/vinci.png"
 
 }}}
 

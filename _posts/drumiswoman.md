@@ -3,7 +3,8 @@
     "tags"     : [ "performance", "openframeworks"  ],
     "category" : "openframeworks",
     "date"     : "2010",
-    "row"  : "a tribute to two women, the symbols of the fight against Afro-American slavery: Harriet Tubman and Sojourner Truth"
+    "row"  : "a tribute to two women, the symbols of the fight against Afro-American slavery: Harriet Tubman and Sojourner Truth",
+    "pimg": "/imgs/drum.png"
 
 }}}
 

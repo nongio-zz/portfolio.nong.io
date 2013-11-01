@@ -1,9 +1,10 @@
 {{{
     "title"    : "gareth pugh fashion show",
-    "tags"     : [ "openframeworks", "projection mapping" ],
+    "tags"     : [ "openframeworks", "projection mapping", "fashion show" ],
     "category" : "fashion show",
     "date"     : "2010",
-    "row"  : "ceiling projection mapping using custom videoplayer based on Quicktime and nurbs distiortions"
+    "row"  : "ceiling projection mapping using custom videoplayer based on Quicktime and nurbs distiortions",
+    "pimg": "/imgs/gareth.png"
 
 }}}
 

@@ -3,7 +3,8 @@
     "tags"     : [ "web", "game", "app", "iOS", "iPad", "iPhone", "Android", "Flash"],
     "category" : "apps",
     "date"     : "2012",
-    "row"  : "Film game developed for web and mobile: web: Flash ActionScript, iOS: (iPhone / iPad) Openframeworks + iOS SDK, Android: Openframeworks + Android SDK"
+    "row"  : "Film game developed for web and mobile: web: Flash ActionScript, iOS: (iPhone / iPad) Openframeworks + iOS SDK, Android: Openframeworks + Android SDK",
+    "pimg": "/imgs/natoons/2.jpg"
 
 }}}
 

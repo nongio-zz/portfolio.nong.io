@@ -71,3 +71,12 @@ footer {
 {
 	font-size: 20px;
 }
+
+div.pimg{
+	position: relative;
+	height:50px;
+	overflow: hidden;
+}
+div.pimg img{
+	position: absolute;
+}

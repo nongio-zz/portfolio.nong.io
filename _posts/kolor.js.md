@@ -1,10 +1,10 @@
 {{{
     "title"    : "kolor fashion show",
-    "tags"     : [ "openframeworks", "shader" ],
+    "tags"     : [ "openframeworks", "shader", "fashion show" ],
     "category" : "fashion show",
     "date"     : "2013",
-    "row"  : "openframeworks software for real time camera acquisition processing"
-
+    "row"  : "openframeworks software for real time camera acquisition processing",
+    "pimg" : "/imgs/kolor/1.jpg" 
 }}}
 
 ![Alt text](/imgs/kolor/1.jpg)

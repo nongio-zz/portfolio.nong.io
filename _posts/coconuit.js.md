@@ -3,7 +3,8 @@
     "tags"     : [ "opensource", "code", "multitouch" ],
     "category" : "multitouch",
     "date"     : "2009",
-    "row"  : "cocoa natural user interface and tangibles framework based on Core Animation"
+    "row"  : "cocoa natural user interface and tangibles framework based on Core Animation",
+    "pimg": "/imgs/coconuit.png"
 
 }}}
 

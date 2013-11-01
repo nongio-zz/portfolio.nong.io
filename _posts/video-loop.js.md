@@ -3,7 +3,8 @@
     "tags"     : [ "app", "iOS", "iPad" ],
     "category" : "apps",
     "date"     : "2012",
-    "row"  : "an ipad application for play videos in fullscreen and in loop"
+    "row"  : "an ipad application for play videos in fullscreen and in loop",
+    "pimg" : "/imgs/videoloop/pimg.png"
 
 }}}
 
