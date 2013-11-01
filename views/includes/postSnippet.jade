@@ -7,4 +7,4 @@ div.post
     = post.row
   div.tags
     - each tag in post.tags 
-      span.label.label-ric #{tag}
+      a(href=tagUrl(tag)).label.label-ric #{tag}

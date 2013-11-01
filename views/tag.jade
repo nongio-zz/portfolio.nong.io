@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h2 
+    span.label.label-ric projects tagged #{tag}
+    br
+  - each post in posts
+    include includes/postSnippet

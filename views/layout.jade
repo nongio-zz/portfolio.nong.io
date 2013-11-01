@@ -31,7 +31,7 @@ html
                   a(href="https://twitter.com/nongio") twitter
                 p.tags
                   - each tag in getTags()
-                    span.label.label-ric #{tag}
+                    a(href=tagURL(tag)).label.label-ric #{tag}
         .col-md-7.col-md-offset-1
           block content
     footer.well
