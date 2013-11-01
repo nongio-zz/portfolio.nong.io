@@ -13,8 +13,8 @@ $(document).ready(function () {
         var current_date = (new Date()).getTime();
         allMessagesSnapshot.forEach(function(messageSnapshot) {
             var diff = current_date - messageSnapshot.val().date;
-            if(diff > 36000)
-                messageSnapshot.ref().remove();
+            // if(diff > 36000)
+            //     messageSnapshot.ref().remove();
 
         });
     });
@@ -52,4 +52,5 @@ $(document).ready(function () {
         $("#person"+ snapshot.name()).remove();
     });
 
+    current_user.onDisconnect().remove();
 });
