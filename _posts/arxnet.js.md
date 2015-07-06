@@ -1,9 +1,10 @@
 {{{
     "title"    : "arx studio website",
-    "tags"     : [ "html5" ],
+    "tags"     : [ "html5", "web" ],
     "category" : "web",
     "date"     : "2008",
-    "row"  : "arx architecture studio website"
+    "row"  : "arx architecture studio website",
+    "pimg": "/imgs/arx.png"
 
 }}}
 

@@ -3,7 +3,8 @@
     "tags"     : [ "multitouch", "trade show" ],
     "category" : "multitouch",
     "date"     : "2009",
-    "row"  : "touch screen software made with Flash ActionsScript 3.0"
+    "row"  : "touch screen software made with Flash ActionsScript 3.0",
+    "pimg": "/imgs/baseball.png"
 
 }}}
 

@@ -1,12 +1,15 @@
 var myDataRef;
 var current_user;
-
+var num_users = 1;
 $(document).ready(function () {
     $("#people").css({
         height:$(document).height() + "px"
     })
 
     myDataRef = new Firebase('https://nongio.firebaseio.com/users')
+
+
+
     var my_color = {
         r: Math.random()*255,
         g: Math.random()*255,
@@ -39,6 +42,7 @@ $(document).ready(function () {
                     "border-color": " rgb("+ Math.floor(snapshot.val().r)+","+Math.floor(snapshot.val().g) + ","+Math.floor(snapshot.val().b)+")"
                 })
             $("#people").append(person);
+            num_users++;
         }
 
     });
@@ -51,6 +55,7 @@ $(document).ready(function () {
     });
     myDataRef.on('child_removed', function(snapshot) {
         $("#person"+ snapshot.name()).remove();
+        num_users--;
     });
 
     current_user.onDisconnect().remove();
