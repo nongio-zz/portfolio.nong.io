@@ -9,4 +9,4 @@
 
 ** very old website made with scriptaculous and prototype js **
 
-http://www.arxnet.net/page.php
+http://arx.nong.io/page.php
